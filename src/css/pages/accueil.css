@@ -40,32 +40,32 @@
 }
 
 .gallery__img1{
-    width: 86px;
-    height: 104px;
+    width: 5.375rem;
+    height: 6.5rem;
     position: absolute;
     top: 26.5rem;
     left: 0.625rem;
 }
 
 .gallery__img2{
-    width: 73px;
-    height: 104px;
+    width: 4.563rem;
+    height: 6.5rem;
     position: absolute;
     top: 26.5rem;
     left: 6.625rem;
 }
 
 .gallery__img3{
-    width: 169px;
-    height: 115px;
+    width: 10.563rem;
+    height: 7.188rem;
     position: absolute;
     top: 33.625rem;
     left: 0.625rem;
 }
 
 .gallery__img4{
-    width: 176px;
-    height: 377px;
+    width: 11rem;
+    height: 23.563rem;
     position: absolute;
     top: 17.5rem;
     left: 11.813rem;
