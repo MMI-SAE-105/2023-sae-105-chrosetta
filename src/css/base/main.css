@@ -54,3 +54,11 @@ figcaption{
     margin-top: 3.625rem;
     margin-bottom: 3.625rem;
 }
+
+.bouton{
+    font-size: var(--bouton);
+    font-weight: lighter;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: var(--white);
+}
