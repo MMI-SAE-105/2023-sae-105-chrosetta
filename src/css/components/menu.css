@@ -63,3 +63,19 @@
 .menu-open .menu{
     z-index: 1;
 }
+
+
+/* Text menu */
+
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 5%;
+}
+
+.list a{
+    color: var(--white);
+    text-decoration: none;
+}
+
