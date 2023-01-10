@@ -1,3 +1,5 @@
+
+/* Icone menu */
 .nav-toggle {
     width: 30px;
     height: 30px;
@@ -38,4 +40,26 @@
 .menu-open .nav-toggle-bar::after{
     transform: rotate(90deg);
     top: 0;
+}
+
+/* menu */
+
+.menu{
+    background-color: var(--main);
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    box-shadow: var(--effect-menu);
+}
+
+.menu-open .menu{
+    z-index: 1;
 }
