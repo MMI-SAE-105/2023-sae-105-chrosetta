@@ -6,10 +6,13 @@
 --white: rgba(255, 255, 255, 1);
 --bouton-carrousel: rgba(62, 62, 62, 0.44999998807907104);
 
+--font-regular:'Merriweather', 'serif'
+
 /* Text-size styles */
 /* base size: body-main (12px) */
 --h1: 3.33rem;
 --h1-oeuvre: 3.33rem;
+--h1-accueil: 4.92rem;
 --h2: 1.33rem;
 --h3: 1.17rem;
 --body-main: 1rem;
