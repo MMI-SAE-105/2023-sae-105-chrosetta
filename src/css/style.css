@@ -1,3 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+@import "vendors/normalize.css";
+
 @import "utils/variables.css";
-@import "components/menu.css"
+
+@import "base/main.css";
+
+@import "components/menu.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+
+@import "pages/accueil.css";
+@import "pages/artiste.css";
+@import "pages/contact.css";
+@import "pages/expo.css";
+@import "pages/oeuvre.css"
