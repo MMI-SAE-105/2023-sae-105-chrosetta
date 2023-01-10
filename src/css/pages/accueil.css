@@ -24,7 +24,7 @@
     text-transform: uppercase;
     font-weight: normal;
     font-style: italic;
-    letter-spacing: 9px;
+    letter-spacing: 20px;
     position: absolute;
     top: 10rem;
     left: 0.625rem;
@@ -39,11 +39,6 @@
     left: 0.625rem;
 }
 
-.gallerie__1-2{
-    display: flex;
-    flex-direction: row;
-    
-}
 .gallery__img1{
     width: 23%;
     position: absolute;
@@ -53,8 +48,9 @@
 
 .gallery__img2{
     width: 19.5%;
-    position: relative;
+    position: absolute;
     top: 26.5rem;
+    left: 6.625rem;
 }
 
 .gallery__img3{
@@ -76,7 +72,7 @@
 }
 
 .down{
-    position: absolute;
+    position: relative;
     right: 0;
     left: 0;
     background-color: var(--main);
@@ -108,6 +104,8 @@
 .down h2{
     background-color: var(--main);
 }
+
+/*Frise*/
 
 .frise{
     background-color: var(--black);
