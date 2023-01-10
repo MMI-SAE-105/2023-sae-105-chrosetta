@@ -13,13 +13,11 @@ font-family:'Merriweather', 'serif';
 /* base size: body-main (12px) */
 --h1: 3.33rem;
 --h1-oeuvre: 3.33rem;
---h1-accueil: 4.92rem;
+--h1-accueil: 4.80rem;
 --h2: 1.33rem;
 --h3: 1.17rem;
 --body-main: 1rem;
 --small-body: 0.83rem;
---small-body-italic: 0.83rem;
---small-body-underline: 0.83rem;
 --text-menu: 1.08rem;
 --bouton: 1rem;
 --mini-logo: 0.92rem;
