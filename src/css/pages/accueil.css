@@ -1,6 +1,4 @@
-.accueil{
 
-}
 
 .accueil__h1{
     font-size: var(--h1-accueil);
@@ -9,8 +7,30 @@
     font-weight: normal;
 }
 
-.gallery{
-    display: grid;
-    gap: 0.625rem;
-    grid-template-columns: repeat(4, 1fr);
+.gallery__partleft{
+    float: left;
+}
+
+.gallery__partright{
+    float: right;
+}
+
+.gallery__img1{
+    width: 86px;
+    height: 104px;
+}
+
+.gallery__img2{
+    width: 73px;
+    height: 104px;
+}
+
+.gallery__img3{
+    width: 169px;
+    height: 115px;
+}
+
+.gallery__img4{
+    width: 176px;
+    height: 377px;
 }
