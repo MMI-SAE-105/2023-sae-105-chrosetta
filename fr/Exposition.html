@@ -8,43 +8,83 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
+    <header class="header">
+        <div>
+            <a href="/fr/Accueil.html">
+                <img class="header__logo" src="/public/icon/logo.webp" alt="logo d'éphem'art">
+            </a>
+        </div>
 
-    <main>
+        
+            <div x-data="{ open: false }">
+                <div onclick="document.documentElement.classList.toggle('menu-open')" @click="open = ! open" class="nav-toggle">
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <nav class="header__menu menu" x-show="open">
+                    <ul class="menu__list list text-menu">
+                        <div class="list__part1">
+                            <li><a href="/fr/Exposition.html">L'exposition Éphem'art</a></li>
+                            <li><a href="/fr/Exposition.html#tarifs">Tarifs</a></li>
+                            <li><a href="http://www.billetterie/ephemart.fr">Billeterie</a></li>
+                            <li><a href="/fr/Contact.html">Contact</a></li>
+                        </div>
+                        <div class="list__part2 part2">
+                            <li><a href="/fr/JosephBeuys.html">Joseph Beuys</a></li>
+                            <li><a href="/fr/AllanKaprow.html">Allan Kaprow</a></li>
+                            <li id="part2__line3"><a href="/fr/MierleLaderman.html">Mierle Laderman Ukeles</a></li>
+                            <li><a href="/fr/MarinaAbramovic.html">Marina Abramovic</a></li>
+                        </div>
+                            
+                        <div class="list__part3">
+                            <li><a href="/fr/Accueil.html">FR</a></li>
+                            <li><a href="/en/Homepage.html">EN</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main class="expo">
         <h1>Exposition<br>Éphem'art</h1>
         <figure>
             <img src="/public/img/Expo.webp" alt="photo d'une gallerie">
             <figcaption>La gallerie</figcaption>
         </figure>
+        <div class="expo__grid1">
+            <h2>Présentation</h2>
+            <p>L'exposition présentera les œuvres de quatre artistes majeurs de l'art de la performance : Joseph Beuys, Allan Kaprow, Mierle Laderman Ukeles et Marina Abramović.
+                Ces artistes ont tous contribué de manière significative au développement de cette forme d'art au cours de la seconde moitié du XXe siècle. Leur travail met en avant l'importance de l'expérience immédiate et de l'engagement physique et émotionnel du spectateur dans la création de l'œuvre d'art.</p>
+        </div>    
 
-        <h2>Présentation</h2>
-        <p>L'exposition présentera les œuvres de quatre artistes majeurs de l'art de la performance : Joseph Beuys, Allan Kaprow, Mierle Laderman Ukeles et Marina Abramović.
-            Ces artistes ont tous contribué de manière significative au développement de cette forme d'art au cours de la seconde moitié du XXe siècle. Leur travail met en avant l'importance de l'expérience immédiate et de l'engagement physique et émotionnel du spectateur dans la création de l'œuvre d'art.</p>
-        <div></div>
-
-        <h2>L'art de la performance ?</h2>
-        <p>L'art de performance est un mouvement artistique qui met en avant l'expérience de l'artiste et de l'audience dans le moment présent. 
-            <br>Il peut inclure des éléments tels que la danse, la musique, le théâtre, la poésie, la performance visuelle, et plus encore. Les artistes de performance utilisent souvent leur corps et leur voix comme moyens d'expression, ainsi que des objets et des espaces spécifiques pour créer des œuvres immersives. 
-            <br>L'art de performance peut être présenté sur une scène ou dans un espace public, et peut être destiné à un public large ou à un public plus restreint. 
-            <br>L'objectif de l'art de performance est souvent de susciter une réflexion ou une émotion chez le spectateur, ou de dénoncer des problèmes sociaux ou politiques.</p>
-        <div></div>
-
-        <h2>Quand ?</h2>
-        <p>L’exposition se déroule du 13 avril au 23 janvier 2021</p>
-        <div></div>
-
-        <h2>Les horaires</h2>
-        <p>L'exposition sera ouverte tous les jours de 11h à 20h, sauf le lundi. Le mardi, elle sera ouverte jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p>
-        <div></div>
-
+        <div class="separateur"></div>
         
-        <h2 id="tarifs">Les tarifs</h2>
-        <div>
-            <p>Plein tarif<br>Tarif réduit<br>Réduction 13 - 25 ans<br>Fondation Cartier Pass<br>Moins de 13 ans<br>Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité<br>Fondation Cartier Pass, Etudiants</p>
-            <p>11€<br>7,50€<br>5€<br>18€ - 50€<br>Gratuit<br>Gratuit<br>Gratuit</p>
-        </div>
+        <div class="expo__grid2">
+            <h2>L'art de la performance ?</h2>
+            <p>L'art de performance est un mouvement artistique qui met en avant l'expérience de l'artiste et de l'audience dans le moment présent. 
+                <br>Il peut inclure des éléments tels que la danse, la musique, le théâtre, la poésie, la performance visuelle, et plus encore. Les artistes de performance utilisent souvent leur corps et leur voix comme moyens d'expression, ainsi que des objets et des espaces spécifiques pour créer des œuvres immersives. 
+                <br>L'art de performance peut être présenté sur une scène ou dans un espace public, et peut être destiné à un public large ou à un public plus restreint. 
+                <br>L'objectif de l'art de performance est souvent de susciter une réflexion ou une émotion chez le spectateur, ou de dénoncer des problèmes sociaux ou politiques.</p>
+        </div>    
+    
         <div></div>
 
-        <h2>La billetterie</h2>
-        <a href="http://www.billetterie/ephemart.fr">Réservez votre billet ici</a>
+            <h2>Quand ?</h2>
+            <p>L’exposition se déroule du 13 avril au 23 janvier 2021</p>
+            <div></div>
+
+            <h2>Les horaires</h2>
+            <p>L'exposition sera ouverte tous les jours de 11h à 20h, sauf le lundi. Le mardi, elle sera ouverte jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p>
+            <div></div>
+
+            
+            <h2 id="tarifs">Les tarifs</h2>
+            <div>
+                <p>Plein tarif<br>Tarif réduit<br>Réduction 13 - 25 ans<br>Fondation Cartier Pass<br>Moins de 13 ans<br>Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité<br>Fondation Cartier Pass, Etudiants</p>
+                <p>11€<br>7,50€<br>5€<br>18€ - 50€<br>Gratuit<br>Gratuit<br>Gratuit</p>
+            </div>
+            <div></div>
+
+            <h2>La billetterie</h2>
+            <a href="http://www.billetterie/ephemart.fr">Réservez votre billet ici</a>
+        </div>
     </main>
 </body>
