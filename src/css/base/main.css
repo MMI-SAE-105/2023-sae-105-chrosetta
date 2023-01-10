@@ -4,13 +4,13 @@
 body{
     background-color: var(--black);
     margin: 5%;
-    width: max-content;
 }
 h1{
     font-size: var(--h1);
     color: var(--white);
     text-transform: uppercase;
     font-weight: normal;
+
 }
 
 h2{
