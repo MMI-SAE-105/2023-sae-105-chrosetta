@@ -71,8 +71,8 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    padding: 2%;
-    gap: 4.5rem;
+    padding: 5%;
+    gap: 3rem;
 }
 
 .list a{
@@ -99,5 +99,5 @@
 }
 
 #part2__line3{
-    line-height: 1rem;
+    line-height: 1.2rem;
 }
