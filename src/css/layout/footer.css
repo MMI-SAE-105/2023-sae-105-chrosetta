@@ -1,0 +1,13 @@
+footer {
+    width: auto;
+    position: relative;
+    background-color: var(--black);
+    border-radius: 15px 15px 0 0; 
+    color: var(--white);
+    padding: 16px;
+    margin-top: -16px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
