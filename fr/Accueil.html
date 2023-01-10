@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Éphem'art</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
     <header>
@@ -14,23 +15,27 @@
                 <img src="/public/icon/logo.webp" alt="logo d'éphem'art">
             </a>
         </div>
-        <nav>
-            <div>
-                <button>menu</button>
-                <ul>
-                    <li><a href="/fr/Exposition.html"></a>L'exposition Éphem'art</li>
-                    <li><a href="/fr/Exposition.html"></a>Tarifs</li>
-                    <li><a href="http://www.billetterie/ephemart.fr"></a>Billeterie</li>
-                    <li><a href="/fr/JosephBeuys.html"></a>Joseph Beuys</li>
-                    <li><a href="/fr/AllanKaprow.html"></a>Allan Kaprow</li>
-                    <li><a href="/fr/MierleLaderman.html"></a>Mierle Laderman Ukeles</li>
-                    <li><a href="/fr/MarinaAbramovic.html"></a>Marina Abramovic</li>
-                    <li><a href="/fr/Contact.html"></a>Contact</li>
-                    <li><a href="/fr/Accueil.html"></a>FR</li>
-                    <li><a href="/en/Homepage.html"></a>EN</li>
-                </ul>
+
+        
+            <div x-data="{ open: false }">
+                <button @click="open = ! open" onclick="document.documentElement.classList.toggle('menu-open')" class="nav-toggle">
+                        <div class="nav-toggle-barart"></div>
+                </button>
+                <nav x-show="open">
+                    <ul>
+                        <li><a href="/fr/Exposition.html">L'exposition Éphem'art</a></li>
+                        <li><a href="/fr/Exposition.html">Tarifs</a></li>
+                        <li><a href="http://www.billetterie/ephemart.fr">Billeterie</a></li>
+                        <li><a href="/fr/JosephBeuys.html">Joseph Beuys</a></li>
+                        <li><a href="/fr/AllanKaprow.html">Allan Kaprow</a></li>
+                        <li><a href="/fr/MierleLaderman.html">Mierle Laderman Ukeles</a></li>
+                        <li><a href="/fr/MarinaAbramovic.html">Marina Abramovic</a></li>
+                        <li><a href="/fr/Contact.html">Contact</a></li>
+                        <li><a href="/fr/Accueil.html">FR</a></li>
+                        <li><a href="/en/Homepage.html">EN</a></li>
+                    </ul>
+                </nav>
             </div>
-        </nav>
     </header>
     <main>
         <p>Venez redécouvrir l’art de la performance avec l’exposition</p>
