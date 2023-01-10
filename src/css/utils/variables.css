@@ -1,0 +1,26 @@
+.root{
+    /* Color styles */
+--main: rgba(71, 72, 54, 1);
+--light: rgba(174, 175, 169, 1);
+--black: rgba(18, 18, 18, 1);
+--white: rgba(255, 255, 255, 1);
+--bouton-carrousel: rgba(62, 62, 62, 0.44999998807907104);
+
+/* Text-size styles */
+/* base size: body-main (12px) */
+--h1: 3.33rem;
+--h1-oeuvre: 3.33rem;
+--h2: 1.33rem;
+--h3: 1.17rem;
+--body-main: 1rem;
+--small-body: 0.83rem;
+--small-body-italic: 0.83rem;
+--small-body-underline: 0.83rem;
+--text-menu: 1.08rem;
+--bouton: 1rem;
+--mini-logo: 0.92rem;
+
+/* Effect styles */
+--effect-menu:  -2px 0px 5px rgba(0, 0, 0, 0.3);
+--effect-oeuvre:  0px -2px 2px rgba(0, 0, 0, 0.25);
+}
