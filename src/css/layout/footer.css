@@ -30,8 +30,13 @@ footer {
 }
 
 .footer__part3 img{
+    margin-top: 1.563rem;
     width: 2.938rem;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+}
+
+.footer__part3 p{
+    text-align: center;
 }

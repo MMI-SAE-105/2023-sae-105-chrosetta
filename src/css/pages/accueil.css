@@ -80,6 +80,7 @@
     width: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    bottom: -25px;
 }
 
 .down__chevrondown{
