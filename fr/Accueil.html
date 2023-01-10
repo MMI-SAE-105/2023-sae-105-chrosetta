@@ -18,7 +18,7 @@
 
         
             <div x-data="{ open: false }">
-                <button @click="open = ! open" onclick="document.documentElement.classList.toggle('menu-open')" class="nav-toggle">
+                <button @click="open = ! open" class="nav-toggle">
                         <div class="nav-toggle-barart"></div>
                 </button>
                 <nav x-show="open">
@@ -44,22 +44,29 @@
         <h1 class="accueil__h1">Éphem'art</h1>
         <p>Du 13 avril au 23 juin 2021</p>
         <p>À la Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
-        <figure>
-            <img src="/public/img/Accueil/Accueil1.webp">
-            <figcaption>Photo représentant une performance de Joseph Beuys</figcaption>
-        </figure>
-        <figure>
-            <img src="/public/img/Accueil/Accueil2.webp">
-            <figcaption>Photo représentant une performance de Allan Kaprow</figcaption>
-        </figure>
-        <figure>
-            <img src="/public/img/Accueil/Accueil3.webp">
-            <figcaption>Photo représentant une performance de Marina Abramovic</figcaption>
-        </figure>
-        <figure>
-            <img src="/public/img/Accueil/Accueil4.webp">
-            <figcaption>Photo représentant une performance de Mierle Laderman Ukeles</figcaption>
-        </figure>
+
+        <div class="accueil__gallery gallery">
+            <div>
+                <div>
+                    <figure class="gallery__img1">
+                        <img src="/public/img/Accueil/Accueil1.webp">
+                        <figcaption>Photo représentant une performance de Joseph Beuys</figcaption>
+                    </figure>
+                    <figure class="gallery__img2">
+                        <img src="/public/img/Accueil/Accueil2.webp">
+                        <figcaption>Photo représentant une performance de Allan Kaprow</figcaption>
+                    </figure>
+                </div>
+                <figure class="gallery__img3">
+                    <img src="/public/img/Accueil/Accueil3.webp">
+                    <figcaption>Photo représentant une performance de Marina Abramovic</figcaption>
+                </figure>
+            </div>
+            <figure class="gallery__img4">
+                <img src="/public/img/Accueil/Accueil4.webp">
+                <figcaption>Photo représentant une performance de Mierle Laderman Ukeles</figcaption>
+            </figure>
+        </div>
 
         <img src="/public/icon/chevron-down.webp" alt="flèche vers le bas">
 
@@ -96,7 +103,7 @@
                     <p>origine : serbe</p>
                     <a href="/fr/MarinaAbramovic.html">En savoir plus</a>
                 </div>
-            <img src="/public/icon/FlecheFrise.webp" alt="Flèche de la frise">
+            <img src="/" alt="Flèche de la frise">
             </div>
         </div>
 

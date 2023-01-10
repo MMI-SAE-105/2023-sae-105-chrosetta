@@ -1,7 +1,16 @@
 .accueil{
-    display: grid;
+
 }
 
 .accueil__h1{
+    font-size: var(--h1-accueil);
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: normal;
+}
 
+.gallery{
+    display: grid;
+    gap: 0.625rem;
+    grid-template-columns: repeat(4, 1fr);
 }
