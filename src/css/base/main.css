@@ -3,14 +3,14 @@
 }
 body{
     background-color: var(--black);
-    margin: 5%;
 }
 h1{
     font-size: var(--h1);
     color: var(--white);
     text-transform: uppercase;
     font-weight: normal;
-
+    font-style: italic;
+    letter-spacing: 5px;
 }
 
 h2{
@@ -51,5 +51,6 @@ figcaption{
     background-color: var(--white);
     left: 50%;
     transform: translate(-50%);
-    margin-top: 5rem;
+    margin-top: 3.625rem;
+    margin-bottom: 3.625rem;
 }

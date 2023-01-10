@@ -47,6 +47,8 @@
 .menu{
     background-color: var(--main);
     position: absolute;
+    z-index: -5;
+    opacity: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     top: 0;
@@ -62,6 +64,7 @@
 
 .menu-open .menu{
     z-index: 1;
+    opacity: 1;
 }
 
 
