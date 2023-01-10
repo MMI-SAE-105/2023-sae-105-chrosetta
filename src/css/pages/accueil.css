@@ -7,30 +7,43 @@
     font-weight: normal;
 }
 
-.gallery__partleft{
-    float: left;
-}
-
-.gallery__partright{
-    float: right;
-}
-
 .gallery__img1{
     width: 86px;
     height: 104px;
+    position: absolute;
+    top: 26.5rem;
+    left: 0.625rem;
 }
 
 .gallery__img2{
     width: 73px;
     height: 104px;
+    position: absolute;
+    top: 26.5rem;
+    left: 6.625rem;
 }
 
 .gallery__img3{
     width: 169px;
     height: 115px;
+    position: absolute;
+    top: 33.625rem;
+    left: 0.625rem;
 }
 
 .gallery__img4{
     width: 176px;
     height: 377px;
+    position: absolute;
+    top: 17.5rem;
+    left: 11.813rem;
+}
+
+.accueil__chevrondown{
+    margin-top: 20rem;
+    width: 5.625rem;
+    height: 1.875rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
