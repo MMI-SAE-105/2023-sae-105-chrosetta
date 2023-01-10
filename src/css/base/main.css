@@ -37,3 +37,9 @@ figcaption{
     font-size: var(--small-body);
     display: none;
 }
+
+.text-menu{
+    font-size: var(--text-menu);
+    color: var(--white);
+    font-weight: lighter;
+}

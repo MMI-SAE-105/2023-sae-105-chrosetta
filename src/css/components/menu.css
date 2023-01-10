@@ -71,11 +71,33 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    padding: 5%;
+    padding: 2%;
+    gap: 4.5rem;
 }
 
 .list a{
     color: var(--white);
     text-decoration: none;
+    
 }
 
+.list__part3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10%;
+}
+
+.list div{
+    width: 100%;
+    line-height: 2.5rem;
+    padding: 0;
+}
+
+.list__part1::first-line{
+    line-height: 0.6rem;
+}
+
+#part2__line3{
+    line-height: 1rem;
+}
