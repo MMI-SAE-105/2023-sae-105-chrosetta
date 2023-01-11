@@ -107,11 +107,11 @@ img {
   
 .carrousel_btn {
     position: absolute;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
     width: 2rem;
     height: 2rem;
-    background: transparent;
+    background: var(--black);
     border-radius: 100%;
     border: none;
     display: grid;
