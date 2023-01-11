@@ -107,8 +107,8 @@ img {
   
 .carrousel_btn {
     position: absolute;
-    top: 50%; /* centre verticalement */
-    transform: translateY(-50%); /* methode du point mort */
+    top: 50%;
+    transform: translateY(-50%);
     width: 2rem;
     height: 2rem;
     background: transparent;
@@ -116,7 +116,7 @@ img {
     border: none;
     display: grid;
     place-content: center;
-    color: var(--black);
+    color: var(--white);
 }
   
 .carrousel_btn-avant {
@@ -127,28 +127,15 @@ img {
     right: 0;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-}
-
 .caroussel_liste-liens {
     border: solid;
     display: flex;
     justify-content: center;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     padding: 10px 0 8px 0;
     list-style: none;
     gap: 1rem;
-}
-
-.actif {
-    padding: 10px;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
 }
 
 #ecran-1{
