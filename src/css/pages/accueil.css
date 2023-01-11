@@ -62,8 +62,12 @@ figure{
     margin-left: 0.625rem;
 }
 
-.gallery__img1+figcaption{
+.gallery__img1+figcaption,.gallery__img3+figcaption{
     margin-left: 0.625rem;
+}
+
+.gallerie__img4+figcaption{
+    margin-right: 0.625;
 }
 
 .gallery__img2{
