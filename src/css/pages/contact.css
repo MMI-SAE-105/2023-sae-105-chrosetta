@@ -44,11 +44,6 @@ input[type="text"],input[type="email"],textarea{
     font-size: var(--small-body);
 }
 
-textarea::placeholder{
-    position: absolute;
-    bottom: 5%;
-}
-
 button[type="submit"]{
     width: 100%;
     border: 0;
