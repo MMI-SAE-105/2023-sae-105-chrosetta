@@ -55,6 +55,18 @@ figcaption{
     margin-bottom: 3.625rem;
 }
 
+.separateurintro{
+    position: relative;
+    width: 95%;
+    height: 0.5px;
+    background-color: var(--white);
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem; 
+}
+
+
 .bouton{
     font-size: var(--bouton);
     font-weight: lighter;

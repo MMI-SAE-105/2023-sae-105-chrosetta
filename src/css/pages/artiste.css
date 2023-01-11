@@ -1,0 +1,15 @@
+.artiste h1{
+    margin-top: 7.938rem;
+    margin-bottom: 2.188rem;
+    text-align: right;
+}
+
+.artiste__gallery{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3.375rem;
+}
+
+.artiste__gallery img{
+    width: 20%;
+}
