@@ -151,8 +151,13 @@ figure{
     position: relative;
     left: 7.5rem;
     width: 20rem;
+    line-height: 20%;
+}
+
+.scroll__profil h3{
     line-height: 120%;
 }
+
 
 .scroll__profil div{
     display: flex;
