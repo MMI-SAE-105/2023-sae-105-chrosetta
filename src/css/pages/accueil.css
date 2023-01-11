@@ -131,6 +131,10 @@ figure{
 .frise{
     background-color: var(--black);
     border-radius: 25px;
+    position: relative;
+    right: 100px;
+    width: 370px;
+    left: 1px;
 }
 
 .frise img{
@@ -146,17 +150,52 @@ figure{
 }
 
 .scroll__profil{
-    display: block;
-    width: 22.125rem;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
-.scroll__profil div{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 200px;
+    transform: translate(-50%); 
+    width: 400px;
+}
+
+/* .scroll__profil div{
+     display: flex; 
+    flex-direction: row;  
+    position :relative;
+    left: ;
+}  */
+
+.origine{
+    position: relative;
+    text-overflow: clip;
+    width: 7.813rem;
+}
+
+.esp{
+    position: relative;
+    left: 8.125rem;
+    bottom: 1.875rem;
+    width: 12.5rem;
+    font-size: var(--caption);
+    color: var(--light);
 }
 
 .frise__scroll h3{
-    width: 100%;
+    width: 200%;
+    text-align: center;
+}
+
+/* .bandeau
+{
+    background-color: blue;
+    position: relative;
+    height: 20px;
+    padding-right: 30px;
+   
+} */
+
+.marge{
+    position: relative;
+    top: 1.25rem;
 }
