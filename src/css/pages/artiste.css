@@ -1,3 +1,7 @@
+.artiste{
+    padding: 0.625rem;
+}
+
 .artiste h1{
     margin-top: 7.938rem;
     margin-bottom: 2.188rem;
@@ -12,4 +16,58 @@
 
 .artiste__gallery img{
     width: 20%;
+}
+
+.artiste__intro{
+    text-align: center;
+}
+
+.artiste__grid1 {
+    display: grid;
+    gap: 5%;
+}
+
+.artiste__grid1 h2{
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+.artiste__grid1 p{
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+    line-height: 150%
+}
+
+
+.artiste__grid2 {
+    display: grid;
+    gap: 5%;
+}
+
+.artiste__grid2 h2{
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+.artiste__grid2 p{
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+    line-height: 150%
+}
+
+
+.artiste__grid3 {
+    display: grid;
+    gap: 5%;
+}
+
+.artiste__grid3 h2{
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+.artiste__grid3 p{
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+    line-height: 150%
 }
