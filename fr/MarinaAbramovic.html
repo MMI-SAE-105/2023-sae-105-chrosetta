@@ -80,22 +80,19 @@
         
         <div class="separateur"></div>
 
-        <h2>Zoom sur deux de ses oeuvres</h2>
+        <h2 class="artiste__h2">Zoom sur deux de ses oeuvres</h2>
         
         <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
-            <button @click="const p = $refs.parent ; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt</button><button @click="const p = $refs.parent ; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt</button>
+            <button @click="const p = $refs.parent ; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt</button>
+            <button @click="const p = $refs.parent ; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt</button>
             <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
                 <div id="ecran-1" class="carrousel_ecran">
-                    <figure>
                         <img src="/public/img/Marina/MarinaCarrousel1.webp" alt="performance the artist is present">
-                        <figcaption>The artist is present</figcaption>
-                    </figure>
+                        <button class="bouton">The artist is present</button>
                 </div>
                 <div id="ecran-2" class="carrousel_ecran">
-                    <figure>
                         <img src="/public/img/Marina/MarinaCarrousel2.webp" alt="performance rest energy">
-                        <figcaption>Rest energy</figcaption>
-                    </figure>
+                        <button class="bouton">Rest Energy</button>
                 </div>
             </div>
         </div>
