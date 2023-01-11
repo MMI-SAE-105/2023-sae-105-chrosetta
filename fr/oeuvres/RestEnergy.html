@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The artist is present</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <a href="/fr/Accueil.html">
+                <img class="header__logo" src="/public/icon/logo.webp" alt="logo d'éphem'art">
+            </a>
+        </div>
+
+        
+            <div x-data="{ open: false }">
+                <div onclick="document.documentElement.classList.toggle('menu-open')" @click="open = ! open" class="nav-toggle">
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <nav class="header__menu menu" x-show="open">
+                    <ul class="menu__list list text-menu">
+                        <div class="list__part1">
+                            <li><a href="/fr/Exposition.html">L'exposition Éphem'art</a></li>
+                            <li><a href="/fr/Exposition.html#tarifs">Tarifs</a></li>
+                            <li><a href="http://www.billetterie/ephemart.fr">Billeterie</a></li>
+                            <li><a href="/fr/Contact.html">Contact</a></li>
+                        </div>
+                        <div class="list__part2 part2">
+                            <li><a href="/fr/JosephBeuys.html">Joseph Beuys</a></li>
+                            <li><a href="/fr/AllanKaprow.html">Allan Kaprow</a></li>
+                            <li id="part2__line3"><a href="/fr/MierleLaderman.html">Mierle Laderman Ukeles</a></li>
+                            <li><a href="/fr/MarinaAbramovic.html">Marina Abramovic</a></li>
+                        </div>
+                            
+                        <div class="list__part3">
+                            <li><a href="/fr/Accueil.html">FR</a></li>
+                            <li><a href="/en/Homepage.html">EN</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main class="oeuvre">
+        <section class="oeuvre__landing">
+            <img src="/public/img/Oeuvres/RestEnergy.webp" alt="Photo représentant la performance the artist is present">
+                <h1>Rest Energy</h1>
+        </section>
+        <div class="oeuvre__oeuvretext oeuvretext">
+            <div class="separateurintro"></div>
+            <p class="oeuvretext__intro">"The Artist is Present" est une performance de Marina Abramović présentée au Museum of Modern Art (MoMA) de New York en 2010. L'œuvre a été l'un des événements les plus populaires et les plus médiatisés du MoMA de ces dernières années.</p>
+            <div class="separateurintro"></div>
+
+            <div class="oeuvretext__grid1">
+                <h2>Sa performance</h2>
+                <p>Dans "The Artist is Present", Abramović s'est assise en silence à une table, face à un siège vide, pendant 736 heures. Le public était invité à s'installer en face d'elle et à la regarder dans les yeux. Chaque jour, Abramović était présente de 12h à 18h, du 2 au 31 mars 2010.</p>
+            </div>
+            
+            <div class="separateur"></div>
+
+            <div class="oeuvretext__grid2">
+                <h2>Son message</h2>
+                <p>"The Artist is Present" met en avant la présence physique et mentale de l'artiste et invite le spectateur à être pleinement présent et à s'engager dans l'expérience. La performance explore également les thèmes de la communication, de la connexion et de l'intimité.<br>Abramović a déclaré que "The Artist is Present" était une des performances les plus difficiles qu'elle ait jamais réalisées et que le fait de rester assise en silence pendant 736 heures avait été un véritable défi physique et mental.</p>
+            </div>
+            
+            <div class="separateur"></div>
+
+            <div class="oeuvretext__grid3">
+                <h2>Sa critique</h2>
+                <p>La performance a suscité un vif intérêt auprès du public et a attiré plus de 850 000 visiteurs au MoMA pendant sa durée. De nombreux spectateurs ont fait la queue pendant des heures pour avoir l'opportunité de s'asseoir en face d'Abramović et de partager cet instant unique.<br>En plus de sa popularité auprès du public, "The Artist is Present" a également suscité l'intérêt de la critique et a été saluée comme une œuvre importante de l'art de la performance. Elle a également été documentée dans un film du même nom, sorti en 2012.</p>
+            </div>
+
+            <div class="separateur"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__part1">
+            <a href="/fr/Contact.html">
+                <p class="bouton">Contact</p>
+            </a>
+            <a href="http://www.billetterie/ephemart.fr">
+                <p class="bouton">Billetterie</p>
+            </a>
+                <a href="/fr/Exposition.html#tarifs">
+                <p class="bouton">Tarif</p>
+            </a>
+        </div>
+        <div class="footer__part2">
+            <a href="/"><img src="/public/icon/Instagram.webp" alt="Instagram"></a>
+            <a href="/"><img src="/public/icon/Twitter.webp" alt="Twitter"></a>
+            <a href="/"><img src="/public/icon/Facebook.webp" alt="Facebook"></a>
+        </div>
+        <div class="footer__part3">
+            <img src="/public/icon/LogoMMI.webp" alt="Logo MMI">
+            <p>Chloé Rosetta MM1C1</p>
+        </div>
+    </footer>
+</body>
+</html>
