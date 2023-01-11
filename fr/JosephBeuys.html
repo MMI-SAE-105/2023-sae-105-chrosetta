@@ -80,15 +80,24 @@
         
         <div class="separateur"></div>
 
-        <h2>Zoom sur deux de ses oeuvres</h2>
+        <h2 class="artiste__h2">Zoom sur deux de ses oeuvres</h2>
         
-        <div x-data="{ currentIndex: 0, items: [{ src: '/public/img/Marina/MarinaCarrousel1.webp', alt: 'performance de the artist is present', link: '/fr/oeuvres/TAIP.html' }, { src: '/public/img/Marina/MarinaCarrousel2.webp', alt: 'performance de rest energy', link: '/fr/oeuvres/RestEnergy.html' }] }">
-            <div class="carousel">
-              <button x-on:click="currentIndex = (currentIndex + 1) % 2">&lt;</button>
-              <a x-for="(item, index) in items" :key="index" :href="item.link" x-show="currentIndex === index">
-                  <img :src="item.src" :alt="item.alt">
-              </a>
-              <button x-on:click="currentIndex = (currentIndex - 1 + 2) % 2">&gt;</button>
+        <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
+            <button @click="const p = $refs.parent ; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt</button>
+            <button @click="const p = $refs.parent ; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt</button>
+            <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
+                <div id="ecran-1" class="carrousel_ecran">
+                        <img src="/public/img/Joseph/JosephCarrousel1.webp" alt="performance I like America and America likes me">
+                        <a href="/fr/oeuvres/ILA.html">
+                            <button class="bouton">I like america and america likes me</button>
+                        </a>
+                </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                        <img src="/public/img/Joseph/JosephCarrousel2.webp" alt="performance The silence of Marcel Duchamp is overrated">
+                        <a href="/fr/oeuvres/SilenceMD.html">
+                            <button class="bouton">The silence of Marcel Duchamp is overrated</button>
+                        </a>
+                </div>
             </div>
         </div>
 
