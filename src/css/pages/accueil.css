@@ -52,10 +52,10 @@ figure{
     margin-top: -3.5rem;
 }
 
-.accueil__h1 + p{
+.left>p{
     font-size: var(--small-body);
-    font-style: italic;
     text-align: center;
+    font-style: italic;
     position: relative;
 }
 
@@ -132,9 +132,7 @@ figure{
     background-color: var(--black);
     border-radius: 25px;
     position: relative;
-    right: 100px;
-    width: 370px;
-    left: 1px;
+    margin:0.625rem;
 }
 
 .frise img{
@@ -146,37 +144,37 @@ figure{
     flex-direction: row;
     overflow-x: scroll;
     align-items: center;
-    gap: 22rem;
+    gap: 15rem;
 }
 
 .scroll__profil{
+    padding-top: 0.625rem ;
+    padding-bottom: 0.625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    left: 200px;
-    transform: translate(-50%); 
-    width: 400px;
+    left: 7.5rem;
+    width: 20rem;
+    line-height: 20%;
 }
 
-/* .scroll__profil div{
-     display: flex; 
-    flex-direction: row;  
-    position :relative;
-    left: ;
-}  */
+.scroll__profil div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 300%;
+    position: relative;
+    left: 100px;
+}
 
 .origine{
     position: relative;
-    text-overflow: clip;
-    width: 7.813rem;
+   
 }
 
 .esp{
     position: relative;
-    left: 8.125rem;
-    bottom: 1.875rem;
-    width: 12.5rem;
     font-size: var(--caption);
     color: var(--light);
 }
@@ -184,18 +182,4 @@ figure{
 .frise__scroll h3{
     width: 200%;
     text-align: center;
-}
-
-/* .bandeau
-{
-    background-color: blue;
-    position: relative;
-    height: 20px;
-    padding-right: 30px;
-   
-} */
-
-.marge{
-    position: relative;
-    top: 1.25rem;
 }
