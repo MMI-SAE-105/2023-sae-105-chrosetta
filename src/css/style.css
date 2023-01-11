@@ -10,6 +10,7 @@
 @import "layout/header.css";
 @import "layout/footer.css";
 
+@import "pages/404.css";
 @import "pages/accueil.css";
 @import "pages/artiste.css";
 @import "pages/contact.css";

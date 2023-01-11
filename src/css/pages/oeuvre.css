@@ -17,7 +17,7 @@
     left: 0;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
-    box-shadow:var(--effect-oeuvre);
+    box-shadow: var(--effect-oeuvre);
 }
 
 .oeuvretext{
