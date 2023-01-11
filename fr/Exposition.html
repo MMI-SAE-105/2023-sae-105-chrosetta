@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exposition</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -90,9 +91,11 @@
             
         <div class="separateur"></div>
 
-        <div class="expo__grid6">
-            <h2>La billetterie</h2>
-            <a href="http://www.billetterie/ephemart.fr"><p>Réservez votre billet ici</p></a>
+        <div x-data="{open: false}">
+            <button class="expo__boobtn" @click="open = ! open">La billetterie</button>
+                <div x-show="open" class="expo__grid6">
+                    <a href="http://www.billetterie/ephemart.fr"><p>Réservez votre billet ici</p></a>
+                </div>
         </div>
 
         <div class="separateur"></div>
