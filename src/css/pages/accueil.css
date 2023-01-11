@@ -81,11 +81,6 @@ figure{
     margin-left: 0.625rem;
 }
 
-.gallery__img3+figcaption{
-   
-}
-
-
 .gallery__img4{
     width: 176px;
     position: relative;
@@ -156,7 +151,7 @@ figure{
     position: relative;
     left: 7.5rem;
     width: 20rem;
-    line-height: 20%;
+    line-height: 120%;
 }
 
 .scroll__profil div{
