@@ -20,6 +20,8 @@
 
 .artiste__intro{
     text-align: center;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .artiste__grid1 {
