@@ -41,7 +41,7 @@ input[type="text"],input[type="email"],textarea{
 
 ::placeholder{
     color: var(--white);
-    font-size: var(--body);
+    font-size: var(--small-body);
 }
 
 textarea::placeholder{
