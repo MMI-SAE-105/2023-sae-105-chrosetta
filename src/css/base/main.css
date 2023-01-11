@@ -34,8 +34,7 @@ p{
 
 figcaption{
     color: var(--light);
-    font-size: var(--small-body);
-    display: none;
+    font-size: var(--caption);
 }
 
 .text-menu{

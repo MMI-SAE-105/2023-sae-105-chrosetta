@@ -27,42 +27,63 @@
     margin-top: 2rem;
     margin-left: 0.625rem;
 }
+figure{
+    margin: 0;
+}
+.gallery{
+    column-count: 2;
+    column-gap: 0.625rem;
+    column-width: 50%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.left__1-2{
+    display: flex;
+    gap: 0.625rem;
+}
+
+.gallery__right img{
+    margin-top: -2.5rem;
+}
 
 .accueil__h1 + p{
     font-size: var(--small-body);
     font-style: italic;
     text-align: center;
     position: relative;
-    margin-top: 2rem;
+}
+
+.left__1-2 figcaption{
+    margin-left: 0.625rem;
+}
+.gallery__img1{
+    width: 86px;
+    position: relative;
     margin-left: 0.625rem;
 }
 
-.gallery__img1{
-    width: 23%;
-    position: absolute;
-    top: 26.5rem;
-    left: 0.625rem;
-}
-
 .gallery__img2{
-    width: 19.5%;
-    position: absolute;
-    top: 26.5rem;
-    left: 6.625rem;
+    width: 73px;
+    position: relative;
 }
 
 .gallery__img3{
-    width: 45%;
-    position: absolute;
-    top: 33.625rem;
-    left: 0.625rem;
+    width: 169px;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 0.625rem;
 }
 
+
 .gallery__img4{
-    width: 47%;
-    position: absolute;
-    top: 17.5rem;
-    right: 0.625rem;
+    width: 176px;
+    position: relative;
 }
 
 .accueil__position{
