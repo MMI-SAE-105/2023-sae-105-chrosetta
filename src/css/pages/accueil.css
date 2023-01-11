@@ -48,9 +48,6 @@ figure{
     gap: 0.625rem;
 }
 
-.gallery__right img{
-    margin-top: -4rem;
-}
 
 .left>p{
     font-size: var(--small-body);
