@@ -1,0 +1,20 @@
+.erreur{
+    position: relative;
+    text-align: center;
+}
+
+.erreur h1{
+    margin-top: 50%;
+    font-style: normal;
+}
+
+.erreur__p{
+    margin-top: 10%;
+    text-decoration: underline;
+}
+
+.erreur label{
+    color: var(--white);
+    font-size: var(--small-body);
+}
+
