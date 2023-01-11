@@ -129,4 +129,9 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    color: var(--main);
+    background-color: var(--white);
+    border-radius: 5px;
+    border: none;
+    padding: 2% 5%;
 }
