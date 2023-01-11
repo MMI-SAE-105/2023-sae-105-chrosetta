@@ -78,3 +78,25 @@
     grid-row: 1 / -1;
     line-height: 150%
 }
+
+.oeuvre__bdp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.bdp__img{
+    width: 1.875rem;
+}
+
+.oeuvre__bdp div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.oeuvre__bdp p{
+    font-size: var(--small-body);
+}
