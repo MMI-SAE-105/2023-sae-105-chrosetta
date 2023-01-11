@@ -88,11 +88,15 @@
             <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
                 <div id="ecran-1" class="carrousel_ecran">
                         <img src="/public/img/Marina/MarinaCarrousel1.webp" alt="performance the artist is present">
-                        <button class="bouton">The artist is present</button>
+                        <a href="/fr/oeuvres/TAIP.html">
+                            <button class="bouton">The artist is present</button>
+                        </a>
                 </div>
                 <div id="ecran-2" class="carrousel_ecran">
                         <img src="/public/img/Marina/MarinaCarrousel2.webp" alt="performance rest energy">
-                        <button class="bouton">Rest Energy</button>
+                        <a href="/fr/oeuvres/RestEnergy.html">
+                            <button class="bouton">Rest Energy</button>
+                        </a>
                 </div>
             </div>
         </div>
